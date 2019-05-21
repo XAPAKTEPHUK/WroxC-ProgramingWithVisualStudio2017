@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Ivan Boychuk
+ * Chapter 5 - Complex Variable Types
+ * Using an Array */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +29,7 @@ namespace Ch05Ex05
                     case null:
                         WriteLine("THere was a 'null' value in an array");
                         break;
-                    case var x:
+                    case var x: //Patter Matching, where order of cases matters
                         WriteLine("This is the var pattern of type : " +
                             $"{x.GetType().Name}");
                         break;
@@ -35,7 +38,7 @@ namespace Ch05Ex05
                 }
             }
             int sum = 0, total = 0, counter = 0, intValue = 0;
-            int?[] myIntArray = new int?[7] { 5, intValue, 9, 10, null, 2, 99 };
+            int?[] myIntArray = new int?[7] { 5, intValue, 9, 10, null, 2, 99 }; //? lets array store null objects
             foreach (var integer in myIntArray)
             {
                 switch(integer)
