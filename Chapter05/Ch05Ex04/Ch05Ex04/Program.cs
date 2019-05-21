@@ -15,7 +15,7 @@ namespace Ch05Ex04
         {
             string[] friendNames = { "Todd Anthony", "Kevin Holton", "Shane Laigle" };
             int i;
-            Console.WriteLine($"Here are {friendNames.Length} of my friends:");
+            Console.WriteLine($"Here are {friendNames.Length} of my friends:"); //.Length returns the number of elements in an array
             for (i=0; i<friendNames.Length;i++)
             {
                 Console.WriteLine(friendNames[i]);

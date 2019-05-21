@@ -23,7 +23,7 @@ namespace Ch04Ex04
             WriteLine("What balace would you like to have?");
             targetBalance = ToDouble(ReadLine());
             int totalYears = 0;
-            do
+            do //executes code at least once
             {
                 balance += interestRate;
                 ++totalYears;

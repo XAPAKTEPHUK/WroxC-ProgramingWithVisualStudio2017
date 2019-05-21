@@ -26,7 +26,7 @@ namespace Ch05Ex01
             WriteLine("Variable Conversion Examples\n");
             doubleResult = floatVal * shortVal;
             WriteLine($"Implicit, -> double:{floatVal}*{shortVal} -> {doubleResult}");
-            shortResult = (short)floatVal;
+            shortResult = (short)floatVal; //converting float into short requires explicit convertion
             WriteLine($"Explicit, -> short: {floatVal} -> {shortResult}");
             stringResult = Convert.ToString(boolVal) +
                 Convert.ToString(doubleVal);

@@ -21,7 +21,7 @@ namespace Ch04Ex03
             string name;
             WriteLine("What is your name?");
             name = ReadLine();
-            switch (name.ToLower())
+            switch (name.ToLower()) //Convert.ToLover() forces user input to lowercase 
             {
                 case myName:
                     WriteLine("You have the same name as me!");

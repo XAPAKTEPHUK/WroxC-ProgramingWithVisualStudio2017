@@ -23,7 +23,7 @@ namespace Ch05Ex05
                         WriteLine("This friends name starts with 'T': " +
                                 $"{friendName} and is {t.Length -1} letters long.");
                         break;
-                    case string e when e.Length == 0:
+                    case string e when e.Length == 0: //checks for an empty string
                         WriteLine("There is a string in an array that has no value.");
                         break;
                     case null:

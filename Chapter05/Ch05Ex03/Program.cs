@@ -34,7 +34,7 @@ namespace Ch05Ex03
             do
             {
                 WriteLine("Select a direction: ");
-                myDirection = ToInt32(ReadLine());
+                myDirection = ToInt32(ReadLine());//input that cannot be implemented as an integer will result in an error
             }
             while ((myDirection < 1) || (myDirection > 4));
             WriteLine("Input a distance: ");

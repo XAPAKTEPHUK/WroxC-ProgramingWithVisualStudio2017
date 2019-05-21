@@ -12,7 +12,7 @@ using static System.Convert;
 
 namespace Ch05Ex02
 {
-    enum orientation : byte
+    enum orientation : byte //application execution has eccess to enumerator defined in same namespace
     {
         north = 1,
         south = 2,
