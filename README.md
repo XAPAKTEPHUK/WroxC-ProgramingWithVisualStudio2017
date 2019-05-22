@@ -1,4 +1,4 @@
-# WroxProgramingWithVisualStudio2017
+# Programing With Visual Studio 2017
 
 # Chapter 1: Introducing C#
 # Chapter 2: Writing a C# Program
