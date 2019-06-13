@@ -12,7 +12,7 @@ namespace Ch06Ex03
 {
     class Program
     {
-        static int SumVals(params int[] vals)//parameter array - defined using 'params', only one per function is allowed
+        static int SumVals(params int[] vals)//parameter array - defined using >params<, only one per function is allowed                                            
         {
             int sum = 0;
             foreach(int val in vals)
@@ -23,7 +23,7 @@ namespace Ch06Ex03
         }
         static void Main(string[] args)
         {
-            int sum = SumVals(1, 5, 2, 9, 8);
+            int sum = SumVals(1, 5, 2, 9, 8); //SumVals accepts any number of int parameters
             WriteLine($"Summed values = {sum}");
             ReadKey();
         }
