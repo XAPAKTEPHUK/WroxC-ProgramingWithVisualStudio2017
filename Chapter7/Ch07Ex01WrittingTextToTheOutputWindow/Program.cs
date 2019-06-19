@@ -23,26 +23,26 @@ namespace Ch07Ex01WrittingTextToTheOutputWindow
         }
         static int Maxima(int[] integers, out int[] indices)
         {
-            Debug.WriteLine("Maximum value search started.");
+            //Debug.WriteLine("Maximum value search started.");
             indices = new int[1];
             int maxVal = integers[0];
             indices[0] = 0;
             int count = 1;
-            Debug.WriteLine(string.Format(
-                $"Maximum value intialized to {maxVal}, at element index0."));
+            /*Debug.WriteLine(string.Format(
+                $"Maximum value intialized to {maxVal}, at element index0."));*/
             for(int i=1; i<integers.Length; i++)
             {
-                Debug.WriteLine(string.Format(
-                    $"Now looking at element at index {i}."));
+                /*Debug.WriteLine(string.Format(
+                    $"Now looking at element at index {i}."));*/
                 if (integers[i] > maxVal)
                 {
                     maxVal = integers[i];
                     count = 1;
                     indices = new int[1];
                     indices[0] = i;
-                    Debug.WriteLine(string.Format(
+                    /*Debug.WriteLine(string.Format(
                         $"New maximum found. New value is {maxVal}, at " +
-                        $"element index {i}."));
+                        $"element index {i}."));*/
                 }
                 else
                 {
@@ -53,14 +53,14 @@ namespace Ch07Ex01WrittingTextToTheOutputWindow
                         indices = new int[count];
                         oldIndices.CopyTo(indices, 0);
                         indices[count - 1] = i;
-                        Debug.WriteLine(string.Format(
-                            $"Duplicate maximums found at element index {i}."));
+                        /*Debug.WriteLine(string.Format(
+                            $"Duplicate maximums found at element index {i}."));*/
                     }
                 }
             }
-            Trace.WriteLine(string.Format(
-                $"Maximum value {maxVal} found, with {count} occurances."));
-            Debug.WriteLine("Maximum value search completed.");
+            /*Trace.WriteLine(string.Format(
+                $"Maximum value {maxVal} found, with {count} occurances."));*/
+            //Debug.WriteLine("Maximum value search completed.");
             return maxVal;
         }
     }
