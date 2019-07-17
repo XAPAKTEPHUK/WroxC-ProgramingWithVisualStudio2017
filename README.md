@@ -19,3 +19,12 @@
 ### Ch05Ex04Arrays
 ### Ch05Ex05Arrays
 ### Ch05Ex06StringManipulation
+## Chapter 6: Functions
+### Ch06Ex01BasicFunctions
+### Ch06Ex02ExchangingDataWithFunctions
+### Ch06Ex03ExchangingDataWithFunctions2
+### Ch06Ex04CommandLineArguments
+### Ch06Ex05UsingDelegatesToCallaFunction
+## Chapter 7: Debugging And Error Handling
+### Ch07Ex01WrittingTextToTheOutputWindow
+### Ch07Ex02ExceptionHandling
