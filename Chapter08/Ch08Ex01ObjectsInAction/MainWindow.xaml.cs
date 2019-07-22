@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace Ch08Ex01ObjectsInAction
 {
     /// <summary>
-    /// Clicking the main buttons generates Clicked! message and a new Button
+    /// Clicking the main button generates Clicked! message and a new Button, which in turn generates same message upon clicking
     /// </summary>
     public partial class MainWindow : Window
     {
