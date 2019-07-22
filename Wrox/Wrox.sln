@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07Ex01WrittingTextToTheOu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07Ex02ExceptionHandling", "..\Chapter7\Ch07Ex02ExceptionHandling\Ch07Ex02ExceptionHandling.csproj", "{256961A7-FA25-43BF-A07F-73556DC994A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter8IntroToOOP", "Chapter8IntroToOOP", "{B4190B5C-327B-47A5-A3FD-B42728FC3E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08Ex01ObjectsInAction", "..\Chapter08\Ch08Ex01ObjectsInAction\Ch08Ex01ObjectsInAction.csproj", "{6B58A969-05D4-43C1-A1DF-F1FC70A070D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,10 @@ Global
 		{256961A7-FA25-43BF-A07F-73556DC994A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{256961A7-FA25-43BF-A07F-73556DC994A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{256961A7-FA25-43BF-A07F-73556DC994A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B58A969-05D4-43C1-A1DF-F1FC70A070D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B58A969-05D4-43C1-A1DF-F1FC70A070D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B58A969-05D4-43C1-A1DF-F1FC70A070D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B58A969-05D4-43C1-A1DF-F1FC70A070D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +187,7 @@ Global
 		{385A3E4B-6E01-4782-84DF-E422FE8EC459} = {463CF26B-F0FF-4074-9D81-17E2EC241B3D}
 		{F32F432B-2640-43F1-AE22-3E0AB404DC31} = {95A39B62-3457-47AF-97B5-101C5DBF9FB2}
 		{256961A7-FA25-43BF-A07F-73556DC994A0} = {95A39B62-3457-47AF-97B5-101C5DBF9FB2}
+		{6B58A969-05D4-43C1-A1DF-F1FC70A070D7} = {B4190B5C-327B-47A5-A3FD-B42728FC3E86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2ABC77A8-5C34-4656-B499-E2FF24CE083C}
