@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{709560ED-C162-4905-8227-1CD1E20B29F2}</ProjectGuid>
+    <ProjectGuid>{7693FE43-CFF0-4B53-81BE-390D21130FB9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ch09Ex01DefiningClasses</RootNamespace>
-    <AssemblyName>Ch09Ex01DefiningClasses</AssemblyName>
+    <RootNamespace>Ch09Ex03ClassesVersusStructs</RootNamespace>
+    <AssemblyName>Ch09Ex03ClassesVersusStructs</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

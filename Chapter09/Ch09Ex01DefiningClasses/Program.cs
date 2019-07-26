@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* Ivan Boychuk
+ * Chapter 9 - Defining Classes */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +9,9 @@ using static System.Console;
 
 namespace Ch09Ex01DefiningClasses
 {
+    /// <summary>
+    /// This class contains my programs.
+    /// </summary>
     class Program
     {
         public abstract class MyBase { }

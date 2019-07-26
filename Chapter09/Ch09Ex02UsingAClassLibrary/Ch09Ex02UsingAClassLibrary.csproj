@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{709560ED-C162-4905-8227-1CD1E20B29F2}</ProjectGuid>
+    <ProjectGuid>{3554C047-5B83-4B70-8E68-D013B1B48FDA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ch09Ex01DefiningClasses</RootNamespace>
-    <AssemblyName>Ch09Ex01DefiningClasses</AssemblyName>
+    <RootNamespace>Ch09Ex02UsingAClassLibrary</RootNamespace>
+    <AssemblyName>Ch09Ex02UsingAClassLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ch09ClassLib">
+      <HintPath>..\Ch09ClassLib\bin\Debug\netstandard2.0\Ch09ClassLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
