@@ -33,17 +33,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch05Ex05Arrays", "..\Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch05Ex06StringManipulation", "..\Chapter05\Ch05Ex06\Ch05Ex06StringManipulation.csproj", "{8BDDBBFE-E617-42EC-BAC7-AF3190D7B875}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter2WritingCSharpProgram", "Chapter2WritingCSharpProgram", "{6614F6A8-E217-48F1-BC10-41935A48D3E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter02WritingCSharpProgram", "Chapter02WritingCSharpProgram", "{6614F6A8-E217-48F1-BC10-41935A48D3E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3VariablesAndExpressions", "Chapter3VariablesAndExpressions", "{A8025F4D-0BCC-45AB-9F8C-ADFE43E15D25}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03VariablesAndExpressions", "Chapter03VariablesAndExpressions", "{A8025F4D-0BCC-45AB-9F8C-ADFE43E15D25}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter4FlowControl", "Chapter4FlowControl", "{AFC59F15-EFE0-44CF-A31E-0B05C345A18E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter04FlowControl", "Chapter04FlowControl", "{AFC59F15-EFE0-44CF-A31E-0B05C345A18E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter5MoreAboutVariables", "Chapter5MoreAboutVariables", "{0FA65966-AD60-4C1A-9D0E-E2CD4A3513DE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter05MoreAboutVariables", "Chapter05MoreAboutVariables", "{0FA65966-AD60-4C1A-9D0E-E2CD4A3513DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex01BasicFunctions", "..\Chapter06\Ch06Ex01\Ch06Ex01BasicFunctions.csproj", "{2A1A338E-C538-461A-B7DB-2E360E0C002C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter6Functions", "Chapter6Functions", "{463CF26B-F0FF-4074-9D81-17E2EC241B3D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter06Functions", "Chapter06Functions", "{463CF26B-F0FF-4074-9D81-17E2EC241B3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex02ExchangingDataWithFunctions", "..\Chapter06\Ch06Ex02\Ch06Ex02ExchangingDataWithFunctions.csproj", "{7C9BEEA7-2190-4BEB-AB53-8CE7C71B2332}"
 EndProject
@@ -53,9 +53,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex04CommandLineArgument
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex05UsingDelegatesToCallaFunction", "..\Chapter06\Ch06Ex05UsingDelegatesToCallaFunction\Ch06Ex05UsingDelegatesToCallaFunction.csproj", "{385A3E4B-6E01-4782-84DF-E422FE8EC459}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter7DebuggingAndErrorHandling", "Chapter7DebuggingAndErrorHandling", "{95A39B62-3457-47AF-97B5-101C5DBF9FB2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter07DebuggingAndErrorHandling", "Chapter07DebuggingAndErrorHandling", "{95A39B62-3457-47AF-97B5-101C5DBF9FB2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter8IntroToOOP", "Chapter8IntroToOOP", "{B4190B5C-327B-47A5-A3FD-B42728FC3E86}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter08IntroToOOP", "Chapter08IntroToOOP", "{B4190B5C-327B-47A5-A3FD-B42728FC3E86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08Ex01ObjectsInAction", "..\Chapter08\Ch08Ex01ObjectsInAction\Ch08Ex01ObjectsInAction.csproj", "{6B58A969-05D4-43C1-A1DF-F1FC70A070D7}"
 EndProject
@@ -63,15 +63,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07Ex01WrittingTextToTheOu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07Ex02ExceptionHandling", "..\Chapter07\Ch07Ex02ExceptionHandling\Ch07Ex02ExceptionHandling.csproj", "{256961A7-FA25-43BF-A07F-73556DC994A0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter9ClassDefinition", "Chapter9ClassDefinition", "{186488E5-FE3F-439C-94DB-5FD2324C573E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter09ClassDefinition", "Chapter09ClassDefinition", "{186488E5-FE3F-439C-94DB-5FD2324C573E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch09Ex01DefiningClasses", "..\Chapter09\Ch09Ex01DefiningClasses\Ch09Ex01DefiningClasses.csproj", "{709560ED-C162-4905-8227-1CD1E20B29F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch09ClassLib", "..\Chapter09\Ch09ClassLib\Ch09ClassLib.csproj", "{392C7D21-1228-4EA6-9E25-A909CD3722F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch09ClassLib", "..\Chapter09\Ch09ClassLib\Ch09ClassLib.csproj", "{392C7D21-1228-4EA6-9E25-A909CD3722F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch09Ex02UsingAClassLibrary", "..\Chapter09\Ch09Ex02UsingAClassLibrary\Ch09Ex02UsingAClassLibrary.csproj", "{3554C047-5B83-4B70-8E68-D013B1B48FDA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch09Ex03ClassesVersusStructs", "..\Chapter09\Ch09Ex03ClassesVersusStructs\Ch09Ex03ClassesVersusStructs.csproj", "{7693FE43-CFF0-4B53-81BE-390D21130FB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CHapter10DefiningClassMembers", "CHapter10DefiningClassMembers", "{99B304F9-EA3F-4570-B751-CFA4B0337C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch10Ex01UsingFieldsMethodProperties", "..\Chapter10\Ch10Ex01UsingFieldsMethodProperties\Ch10Ex01UsingFieldsMethodProperties.csproj", "{18692CA1-E87A-426E-8FE3-A5915F725878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -187,6 +191,10 @@ Global
 		{7693FE43-CFF0-4B53-81BE-390D21130FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7693FE43-CFF0-4B53-81BE-390D21130FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7693FE43-CFF0-4B53-81BE-390D21130FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18692CA1-E87A-426E-8FE3-A5915F725878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18692CA1-E87A-426E-8FE3-A5915F725878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18692CA1-E87A-426E-8FE3-A5915F725878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18692CA1-E87A-426E-8FE3-A5915F725878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,6 +226,7 @@ Global
 		{392C7D21-1228-4EA6-9E25-A909CD3722F0} = {186488E5-FE3F-439C-94DB-5FD2324C573E}
 		{3554C047-5B83-4B70-8E68-D013B1B48FDA} = {186488E5-FE3F-439C-94DB-5FD2324C573E}
 		{7693FE43-CFF0-4B53-81BE-390D21130FB9} = {186488E5-FE3F-439C-94DB-5FD2324C573E}
+		{18692CA1-E87A-426E-8FE3-A5915F725878} = {99B304F9-EA3F-4570-B751-CFA4B0337C4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2ABC77A8-5C34-4656-B499-E2FF24CE083C}
