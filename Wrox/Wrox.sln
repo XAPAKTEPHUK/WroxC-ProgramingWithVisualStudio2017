@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch10Ex01UsingFieldsMethodPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch10Ex02UsingNestedClasses", "..\Chapter10\Ch10Ex02UsingNestedClasses\Ch10Ex02UsingNestedClasses.csproj", "{9D3612C8-6CC0-44D8-BF88-1EC959197194}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch10CardLib", "..\Chapter10\Ch10CardLib\Ch10CardLib.csproj", "{81F02A4C-4326-4D99-B0C1-593AA1461D71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{9D3612C8-6CC0-44D8-BF88-1EC959197194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D3612C8-6CC0-44D8-BF88-1EC959197194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D3612C8-6CC0-44D8-BF88-1EC959197194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F02A4C-4326-4D99-B0C1-593AA1461D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F02A4C-4326-4D99-B0C1-593AA1461D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F02A4C-4326-4D99-B0C1-593AA1461D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F02A4C-4326-4D99-B0C1-593AA1461D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -234,6 +240,7 @@ Global
 		{7693FE43-CFF0-4B53-81BE-390D21130FB9} = {186488E5-FE3F-439C-94DB-5FD2324C573E}
 		{18692CA1-E87A-426E-8FE3-A5915F725878} = {99B304F9-EA3F-4570-B751-CFA4B0337C4C}
 		{9D3612C8-6CC0-44D8-BF88-1EC959197194} = {99B304F9-EA3F-4570-B751-CFA4B0337C4C}
+		{81F02A4C-4326-4D99-B0C1-593AA1461D71} = {99B304F9-EA3F-4570-B751-CFA4B0337C4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2ABC77A8-5C34-4656-B499-E2FF24CE083C}
