@@ -1,4 +1,4 @@
-# Chapter 4 - Flow Control
+# Chapter 4 - FLOW CONTROL
 ## Boolean Logic
 ### Boolean logic involves using Boolean (true or false) values to evaluate conditions. Boolean operators are used to perform comparisons between values and return Boolean results. Some Boolean operators are also used to perform bitwise operations on the underlying bit structure of values, and there are some specialized bitwise operators too.
 ## Branching
