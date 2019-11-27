@@ -1,0 +1,11 @@
+# Chapter 7 - DEBUGGING AND ERROR HANDLING
+## Error Types 
+### Fatal errors cause your application to fail completely, either at compile time (syntax errors) or at runtime. Semantic, or logic, errors are more insidious, and may cause your application to function incorrectly or unpredictably.
+## Outputting Debugging Information
+### You can write code that outputs helpful information to the Output window to aid debugging in the IDE. You do this with the Debug and Trace family of functions, where Debug functions are ignored in release builds. For production applications, you may want to write debugging output to a log file instead. You can also use tracepoints to output debugging information.
+## Break Mode
+### You can enter break mode (essentially a state where the application is paused) manually, through breakpoints, through assertions, or when unhandled exceptions occur. You can add breakpoints anywhere in your code and you can configure breakpoints to break execution only under specific conditions. When in break mode, you can inspect the content of variables (with the help of various debug information windows) and step through code a line at a time to assist you in determining where the errors are.
+## Exceptions 
+### Exceptions are errors that occur at runtime and that you can trap and process programmatically to prevent your application from terminating. There are many types of exceptions that can occur when you call functions or manipulate variables. You can also generate exceptions with the throw keyword.
+## Exception Handling 
+### Exceptions that are not handled in your code will cause the application to terminate. You handle exceptions with try, catch, and finally code blocks. try blocks mark out a section of code for which exception handling is enabled. catch blocks consist of code that is executed only if an exception occurs, and can match specific types of exceptions. You can include multiple catch blocks. finally blocks specify code that is executed after exception handling has occurred, or after the try block finishes if no exception occurs. You can include only a single finally block, and if you include any catch blocks, then the finally block is optional.
