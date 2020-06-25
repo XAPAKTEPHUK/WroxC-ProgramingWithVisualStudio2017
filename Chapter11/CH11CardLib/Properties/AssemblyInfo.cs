@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Ch11Ex02ImplementingAnAnimalConnection")]
+[assembly: AssemblyTitle("CH11CardLib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Ch11Ex02ImplementingAnAnimalConnection")]
+[assembly: AssemblyProduct("CH11CardLib")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8b838b54-f788-4ff8-8871-6fec6cbc3055")]
+[assembly: Guid("b169533f-a0db-42a7-802e-04f2c866ab1d")]
 
 // Version information for an assembly consists of the following four values:
 //

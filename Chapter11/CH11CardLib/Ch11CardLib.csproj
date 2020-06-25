@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B838B54-F788-4FF8-8871-6FEC6CBC3055}</ProjectGuid>
+    <ProjectGuid>{B169533F-A0DB-42A7-802E-04F2C866AB1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ch11Ex02ImplementingAnAnimalConnection</RootNamespace>
-    <AssemblyName>Ch11Ex02ImplementingAnAnimalConnection</AssemblyName>
+    <RootNamespace>CH11CardLib</RootNamespace>
+    <AssemblyName>CH11CardLib</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Cards.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rank.cs" />
+    <Compile Include="Suit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
