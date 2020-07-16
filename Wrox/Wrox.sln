@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11Ex02ImplementingAnAnima
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11CardLib", "..\Chapter11\CH11CardLib\Ch11CardLib.csproj", "{B169533F-A0DB-42A7-802E-04F2C866AB1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11Ex03ImplementinAnIterator", "..\Chapter11\Ch11Ex03ImplementinAnIterator\Ch11Ex03ImplementinAnIterator.csproj", "{66B1E2DF-7A82-411A-B3D7-3DF05A9CAFA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{B169533F-A0DB-42A7-802E-04F2C866AB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B169533F-A0DB-42A7-802E-04F2C866AB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B169533F-A0DB-42A7-802E-04F2C866AB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B1E2DF-7A82-411A-B3D7-3DF05A9CAFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B1E2DF-7A82-411A-B3D7-3DF05A9CAFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B1E2DF-7A82-411A-B3D7-3DF05A9CAFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B1E2DF-7A82-411A-B3D7-3DF05A9CAFA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +270,7 @@ Global
 		{21E731CA-D784-4A4D-A47C-5414E62CF434} = {B0A3EA79-097C-4048-AA21-0109C58B985D}
 		{8B838B54-F788-4FF8-8871-6FEC6CBC3055} = {B0A3EA79-097C-4048-AA21-0109C58B985D}
 		{B169533F-A0DB-42A7-802E-04F2C866AB1D} = {B0A3EA79-097C-4048-AA21-0109C58B985D}
+		{66B1E2DF-7A82-411A-B3D7-3DF05A9CAFA1} = {99B304F9-EA3F-4570-B751-CFA4B0337C4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2ABC77A8-5C34-4656-B499-E2FF24CE083C}
